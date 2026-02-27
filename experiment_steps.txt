@@ -1,0 +1,7 @@
+Experiment steps
+
+1) Create Haralick and Haar-like features (generate_Haralick_Haarlike_features.ipynb)
+2) Merge Haralick and Haar-like features with supernovae features from dataset (fileMerger.ipynb or fileMerger.py)
+3) Apply RF to the merged dataset (Im2-Im2_RF.ipynb)
+4) Perform analysis on features importance (importance_analysis.ipynb)
+5) Create a new dataset by extracting the best features on the basis of the previous analysis (create_haar_haralick_dataset_best.ipynb)
